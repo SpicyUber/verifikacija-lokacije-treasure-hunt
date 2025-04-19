@@ -108,7 +108,7 @@ h1{font-size: 64px;}
 
     @media screen and (max-width: 768px) {
     #error1, #error2 {
-        font-size: 24px;
+        font-size: 16px;
         height: 72px;
         line-height: 24px;
     }
@@ -129,7 +129,7 @@ h1{font-size: 64px;}
         width: 90%;
         font-size: 16px;
         height: auto;
-        padding: 10px;
+        padding: 16px;
         box-sizing: border-box;
         line-height: 1.2;
         white-space: nowrap;
@@ -143,7 +143,7 @@ h1{font-size: 64px;}
         height: 80px;
     }
 
-   p{ overflow:hidden; font-size: 16px; }
+   p{ overflow:hidden; font-size: 16px; padding-top: 16px ; }
 
     h1 {
         font-size: 36px;
