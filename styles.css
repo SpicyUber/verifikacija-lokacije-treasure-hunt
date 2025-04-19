@@ -133,8 +133,8 @@ h1{font-size: 64px;}
         box-sizing: border-box;
         line-height: normal;
         white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        overflow:visible;
+        text-overflow:ellipsis;
          
     }
 
@@ -143,7 +143,7 @@ h1{font-size: 64px;}
         height: 80px;
     }
 
-   p{ overflow:hidden; font-size: 16px; padding-top: 16px ; }
+   p{ overflow:visible; font-size: 16px; padding-top: 16px ; }
 
     h1 {
         font-size: 36px;
