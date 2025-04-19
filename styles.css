@@ -107,36 +107,34 @@ h1{font-size: 64px;}
 
 
     @media screen and (max-width: 768px) {
-        #error1, #error2 {
-            font-size: 24px;
-        }
-    
-        .box div {
-            height: auto;
-            min-height: unset;
-            width: 90%;
-            padding: 20px;
-            border-radius: 5%;
-        }
-    
-        input {
-            width: 90%;
-            font-size: 20px;
-            height: 40px;
-        }
-    
-        button {
-            width: 90%;
-            height: 80px;
-        }
-    
-        i {
-            font-size: 48px;
-            width: 100px;
-            height: 100px;
-        }
-    
-        h1 {
-            font-size: 36px;
-        }
+    #error1, #error2 {
+        font-size: 24px;
     }
+
+    .box div {
+       
+        height: auto;
+        min-height: unset;
+        width: 90%;
+        padding: 20px;
+        border-radius: 5%;
+    }
+
+    input {
+        width: 90%;
+        font-size: 20px;
+        height: 40px;
+    }
+
+    button {
+        width: 90%;
+        height: 80px;
+    }
+
+   p{ overflow:auto; }
+
+    h1 {
+        font-size: 36px;
+        overflow:auto; 
+    }
+}

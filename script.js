@@ -67,7 +67,7 @@ function getLocation() {
       navigator.geolocation.getCurrentPosition(success, updateError, options);
      
     }
-    setTimeout(updateLocation, 2000);  
+   
   }
   function error(err){
 x.innerHTML = "Greška prilikom sakupljanja podataka."
@@ -77,8 +77,8 @@ x.innerHTML = "Greška prilikom sakupljanja podataka."
       }
   function success(pos){
     const coords = pos.coords;
-    x.innerHTML = "Vaša lokacija je: "+coords.latitude + "," + coords.longitude;
+    
     location1.latitude = coords.latitude;
     location1.longitude = coords.longitude;
-    updateLocation();
+    x.innerHTML="";
   }
