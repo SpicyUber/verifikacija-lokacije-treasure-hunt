@@ -136,7 +136,8 @@ h1{font-size: 64px;}
         white-space: nowrap;
         overflow:visible;
         text-overflow:ellipsis;
-         
+        text-indent: 20px;
+        padding: 15px 20px 15px 0;
     }
 
     button {
