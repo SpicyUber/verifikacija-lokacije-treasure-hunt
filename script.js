@@ -40,15 +40,19 @@ y.className = "red";
   function goalLocation(teamName){
 console.log(teamName);
 teamName = teamName.toLowerCase();
-x.innerHTML = "Vaša lokacija je ";
+x.innerHTML = "Početna lokacija je ";
     switch(teamName){
-        case "wolf" :
+        case "tim1" :
             x.innerHTML += "Fotokopirnica Wolf."
             return {latitude:44.80782068886259,  longitude:20.479617123018453} ;
         
-        case "starina" :
+        case "tim2" :
              x.innerHTML += "OS STARINA NOVAK."
-           return{latitude:40 , longitude:20} ;
+           return{latitude:44.80961508840723 , longitude: 20.478067274595354} ;
+           case "tim3" :
+            x.innerHTML += "Crkva Svetog Marka."
+          return{latitude:44.81045976044413, longitude: 20.468891847492763 } ;
+           
             default:
                 return null;
     }

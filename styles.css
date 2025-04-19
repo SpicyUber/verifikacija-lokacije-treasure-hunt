@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'SF Fedora Outline';
-    src: url('SFFedora.woff2') format('woff2'),
-        url('SFFedora.woff') format('woff');
+    font-family: 'Sailors Grave';
+    src: url('SailorsGrave-Regular.woff') format('woff'),
+        url('SailorsGrave-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,10 +9,10 @@
 
 *{
      
-        font-family: 'SF Fedora Outline';
-        -webkit-text-fill-color: rgb(245, 245, 245);
-     -webkit-text-stroke-color: black ;
-     -webkit-text-stroke-width: 1px ;
+        font-family: 'Sailors Grave';
+        color  : rgb(245, 245, 245);
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black;
 }
 
  #error1{ font-size: 32px; margin-bottom: 10px;}
@@ -98,7 +98,7 @@ font-size: 32px;
 background-color:rgb(245, 245, 245) ;
 }
 
-h1{font-size: 64px;}
+h1{font-size: 64px; font-weight: normal;}
 
 .green{
     -webkit-text-fill-color:  rgb(0, 255, 0); }
