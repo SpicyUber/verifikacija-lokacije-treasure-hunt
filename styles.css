@@ -106,7 +106,7 @@ h1{font-size: 64px;}
     }
 
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) and (orientation: portrait) {
     #error1, #error2 {
         font-size: 16px;
        line-height: 2.5;
@@ -153,4 +153,6 @@ h1{font-size: 64px;}
         height: 80px ;
         width: 100%;
     }
+
+    
 }
