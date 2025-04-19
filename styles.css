@@ -110,7 +110,7 @@ h1{font-size: 64px;}
     #error1, #error2 {
         font-size: 16px;
         height: 72px;
-        line-height: 24px;
+        line-height: normal;
     }
 
     .box div {
@@ -131,7 +131,7 @@ h1{font-size: 64px;}
         height: auto;
         padding: 16px;
         box-sizing: border-box;
-        line-height: 1.2;
+        line-height: normal;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
