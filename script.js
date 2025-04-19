@@ -57,7 +57,7 @@ x.innerHTML = "Vaša lokacija je ";
 
 function getLocation() {
 
-  screen.orientation.lock("portrait-primary");
+  
 
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(success, error, options);

@@ -29,8 +29,9 @@ background-image: url('bg.png');
 background-blend-mode:soft-light;
 background-repeat: no-repeat;
 background-size: cover;
-height: 100vh;
+height: 100vh + 200px;
 min-height: 100vh;
+  
 }
 .box *{
     margin: 2vh;
@@ -47,7 +48,9 @@ i{ font-size: 64px; width: 150px; height: 150px; animation: glowing; animation-d
     background-image: url('bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
     z-index: 1;
     min-height: 50vh;
     background: #50514f8c;
@@ -154,5 +157,5 @@ h1{font-size: 64px;}
         width: 100%;
     }
 
-    
+ 
 }
