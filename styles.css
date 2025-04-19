@@ -33,6 +33,12 @@ height: 100vh + 200px;
 min-height: 100vh;
   
 }
+
+img{
+    width: auto;
+    height: 25vh;
+}
+
 .box *{
     margin: 2vh;
 
@@ -49,7 +55,7 @@ i{ font-size: 64px; width: 150px; height: 150px; animation: glowing; animation-d
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    margin-top: 200px;
+    margin-top: 2px;
     margin-bottom: 200px;
     z-index: 1;
     min-height: 50vh;
