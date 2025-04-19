@@ -88,7 +88,7 @@ to {font-size: 72px;}
 
 
 input{
-    height: 50px;
+    height: 60px;
 width: 600px;
 font-size: 32px;
 -webkit-text-fill-color: black;
@@ -109,6 +109,7 @@ h1{font-size: 64px;}
     @media screen and (max-width: 768px) {
     #error1, #error2 {
         font-size: 24px;
+        height: 60px;
     }
 
     .box div {
@@ -119,11 +120,13 @@ h1{font-size: 64px;}
         padding: 20px;
         border-radius: 5%;
     }
-
+    i:hover {
+      
+   }
     input {
         width: 90%;
-        font-size: 20px;
-        height: 40px;
+        font-size: 24px;
+        height: 80px;
     }
 
     button {
@@ -131,10 +134,13 @@ h1{font-size: 64px;}
         height: 80px;
     }
 
-   p{ overflow:auto; }
+   p{ overflow:visible; }
 
     h1 {
         font-size: 36px;
-        overflow:auto; 
+        overflow:visible; 
+        text-align: center;
+        height: 80px ;
+        width: 100%;
     }
 }
