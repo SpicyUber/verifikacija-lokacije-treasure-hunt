@@ -127,7 +127,7 @@ h1{font-size: 64px;}
     input {
       
         width: 90%;
-        font-size: 20px;
+        font-size: 16px;
         height: auto;
         padding: 10px;
         box-sizing: border-box;
@@ -143,7 +143,7 @@ h1{font-size: 64px;}
         height: 80px;
     }
 
-   p{ overflow:hidden; font-size: 20px; }
+   p{ overflow:hidden; font-size: 16px; }
 
     h1 {
         font-size: 36px;

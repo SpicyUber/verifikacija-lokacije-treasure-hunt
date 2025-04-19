@@ -39,6 +39,7 @@ y.className = "red";
   }
   function goalLocation(teamName){
 console.log(teamName);
+teamName = teamName.toLowerCase();
 x.innerHTML = "Vaša lokacija je ";
     switch(teamName){
         case "wolf" :
