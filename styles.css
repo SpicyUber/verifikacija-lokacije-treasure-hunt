@@ -11,12 +11,12 @@
      
         font-family: 'Sailors Grave';
         color  : rgb(245, 245, 245);
-        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-width: 0.25px;
         -webkit-text-stroke-color: black;
 }
 
- #error1{ font-size: 32px; margin-bottom: 10px;}
- #error2{ font-size: 32px; margin-top: 10px;}
+ #error1{ font-size: 32px; margin-bottom: 10px; text-align: center;}
+ #error2{ font-size: 32px; margin-top: 10px; text-align: center;}
 
 .box{
 display: flex;
@@ -98,7 +98,7 @@ font-size: 32px;
 background-color:rgb(245, 245, 245) ;
 }
 
-h1{font-size: 64px; font-weight: normal;}
+h1{font-size: 64px; font-weight: normal; -webkit-text-stroke-width: 0.5px;}
 
 .green{
     -webkit-text-fill-color:  rgb(0, 255, 0); }
@@ -111,7 +111,7 @@ h1{font-size: 64px; font-weight: normal;}
 
     @media screen and (max-width: 768px) and (orientation: portrait) {
     #error1, #error2 {
-        
+        font-size: 24px;
        line-height: 2.5;
         line-height: normal;
     }
@@ -130,7 +130,7 @@ h1{font-size: 64px; font-weight: normal;}
     input {
       
         width: 90%;
-        
+        font-size: 24px;
         height: auto;
         line-height: 2.5;
         padding: 16px;
@@ -147,15 +147,15 @@ h1{font-size: 64px; font-weight: normal;}
         height: 80px;
     }
 
-   p{ overflow:visible;  padding-top: 16px ; }
+   p{ overflow:visible; font-size: 24px; padding-top: 16px ; }
 
     h1 {
-       
+        font-size: 48px;
         overflow:visible; 
         text-align: center;
-        height: 80px ;
+        height: 48px ;
         width: 100%;
     }
-
+   
  
 }
