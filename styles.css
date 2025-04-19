@@ -109,7 +109,8 @@ h1{font-size: 64px;}
     @media screen and (max-width: 768px) {
     #error1, #error2 {
         font-size: 24px;
-        height: 60px;
+        height: 72px;
+        line-height: 24px;
     }
 
     .box div {
@@ -121,12 +122,20 @@ h1{font-size: 64px;}
         border-radius: 5%;
     }
     i:hover {
-      
+      animation:none;
    }
     input {
+      
         width: 90%;
-        font-size: 24px;
-        height: 80px;
+        font-size: 20px;
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+        line-height: 1.2;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+         
     }
 
     button {
@@ -134,7 +143,7 @@ h1{font-size: 64px;}
         height: 80px;
     }
 
-   p{ overflow:visible; }
+   p{ overflow:hidden; font-size: 20px; }
 
     h1 {
         font-size: 36px;
