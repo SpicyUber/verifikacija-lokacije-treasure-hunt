@@ -7,12 +7,24 @@
     font-display: swap;
 }
 
+
+   
+ 
+
 *{
-     
+    margin:0;
         font-family: 'Sailors Grave';
         color  : rgb(245, 245, 245);
-        -webkit-text-stroke-width: 0.25px;
-        -webkit-text-stroke-color: black;
+     /*   -webkit-text-stroke-width: 0.25px;
+        -webkit-text-stroke-color: black;*/
+        text-shadow:
+        1px 1px 0 #000,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+       -1px 1px 0 #000;
+       font-size: 50px;
+ 
+    
 }
 
  #error1{ font-size: 32px; margin-bottom: 10px; text-align: center;}
@@ -20,6 +32,7 @@
 
 .box{
 display: flex;
+
 justify-content: center;
 flex-direction: column;
 align-items: center;
@@ -33,6 +46,10 @@ height: 100vh + 200px;
 min-height: 100vh;
   
 }
+
+p{ font-family: "Charm", cursive;
+    font-weight: 400;
+    font-style: normal;}
 
 img{
     width: auto;
@@ -50,7 +67,7 @@ i{ font-size: 64px; width: 150px; height: 150px; animation: glowing; animation-d
     flex-direction: column;
     align-items: center;
     align-content: center;
-    background: green;
+    
     background-image: url('bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,7 +76,11 @@ i{ font-size: 64px; width: 150px; height: 150px; animation: glowing; animation-d
     margin-bottom: 200px;
     z-index: 1;
     min-height: 50vh;
-    background: #50514f8c;
+   /* background: #50514f8c;*/
+   
+   background: #bc8053db;
+   border-width: 2px;
+   border-color: black;
     border-radius: 10%;
 }
 
@@ -100,8 +121,14 @@ input{
     height: 60px;
 width: 600px;
 font-size: 32px;
--webkit-text-fill-color: black;
+border-radius: 8px;
+border-width: 1px ;
 background-color:rgb(245, 245, 245) ;
+color:black;
+text-shadow: none;
+font-family: "Charm", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h1{font-size: 64px; font-weight: normal; -webkit-text-stroke-width: 0.5px;}
@@ -126,7 +153,7 @@ h1{font-size: 64px; font-weight: normal; -webkit-text-stroke-width: 0.5px;}
        
         height: auto;
         min-height: unset;
-        width: 90%;
+        width: 80%;
         padding: 20px;
         border-radius: 5%;
     }
@@ -137,7 +164,7 @@ h1{font-size: 64px; font-weight: normal; -webkit-text-stroke-width: 0.5px;}
       
         width: 90%;
         font-size: 24px;
-        height: auto;
+         
         line-height: 2.5;
         padding: 16px;
         box-sizing: border-box;
@@ -145,7 +172,8 @@ h1{font-size: 64px; font-weight: normal; -webkit-text-stroke-width: 0.5px;}
         white-space: nowrap;
         overflow:visible;
         text-overflow:ellipsis;
-         
+         border-width: 1px;
+         border-radius: 8px;
     }
 
     button {
@@ -153,7 +181,9 @@ h1{font-size: 64px; font-weight: normal; -webkit-text-stroke-width: 0.5px;}
         height: 80px;
     }
 
-   p{ overflow:visible; font-size: 24px; padding-top: 16px ; }
+   p{ font-family: "Charm", cursive;
+    font-weight: 400;
+    font-style: normal; overflow:visible; font-size: 24px; padding-top: 16px ; }
 
     h1 {
         font-size: 48px;
@@ -163,5 +193,6 @@ h1{font-size: 64px; font-weight: normal; -webkit-text-stroke-width: 0.5px;}
         width: 100%;
     }
    
+    
  
 }
