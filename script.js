@@ -28,11 +28,8 @@ d = R * c*/
 let a = Math.pow(Math.sin(toRadians((location1.latitude-location2.latitude)/2)),2) + Math.cos(toRadians(location1.latitude))* Math.cos(toRadians(location2.latitude))* Math.pow(Math.sin(toRadians((location1.longitude-location2.longitude)/2)),2);
 let c = 2 * Math.atan2(Math.sqrt(a),Math.sqrt(1-a));
 let d = earthRadiusInMeters*c;
-y.innerHTML += "Udaljenost od lokacije: "+ Math.floor(d) +" m." ;
-if(d<101)
-y.className = "green";
-else
-y.className = "red";
+
+revealSecret(d);
   }
   function toRadians(degrees) {
     return degrees * (Math.PI / 180);
@@ -40,7 +37,7 @@ y.className = "red";
   function goalLocation(teamName){
 console.log(teamName);
 teamName = teamName.toLowerCase();
-x.innerHTML = "Početna lokacija je ";
+x.innerHTML = "Početna lokacija: ";
     switch(teamName){
         case "tim1" :
             x.innerHTML += "Fotokopirnica Wolf."
@@ -82,6 +79,16 @@ x.innerHTML = "Greška prilikom sakupljanja podataka."
   }
   function updateError(err){
    
+      }
+
+      function revealSecret(d){
+
+        if(d<101){
+          
+          y.innerHTML = "Dobrodošli! Prvi trag: ";}
+          else{
+          
+          y.innerHTML = "Tim je predaleko. Distanca: "+ Math.floor(d) +" m." ;}
       }
   function success(pos){
     const coords = pos.coords;
